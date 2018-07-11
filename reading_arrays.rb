@@ -8,15 +8,19 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
- puts student_names.first
+ puts STUDENT_NAMES[0]
 end
+
+puts first_student_by_index
 
 def fourth_student_by_index
-  puts 
+  puts STUDENT_NAMES [3]
 end
 
+puts fourth_student_by_index
+
 def last_student_by_index
-  # Write a solution that returns the first student in the array student_names
+  puts 
 end
 
 def first_student_by_method
